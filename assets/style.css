@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url("fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'ParagraphFont';
+    src: url("fonts/Ubuntu-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    /*margin: 0 auto;*/
+}
+
+.header {
+    margin: auto;
+    height: 200px;
+    background: white;
+    display: table;
+}
+
+.logo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.logo h1 {
+    color: #e3316f;
+    font-family: 'TitleFont', serif;
+    font-size: 45px;
+}
+
+.intro-text {
+    font-family: 'ParagraphFont', serif;
+    text-align: center;
+
+}
+
+.section#employees {
+    background: green;
+    padding: 50px;
+    overflow: auto;
+}
+
+.employee {
+    background: yellow;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+}
+
+.employee img {
+    max-height: 100%;
+}
+
+.employee .bio {
+    height: 100%;
+    float: right;
+    overflow: auto;
+}
+
+.employee .bio div{
+    padding: 7px;
+
+}
